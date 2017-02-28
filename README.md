@@ -1,5 +1,5 @@
 # game-2048
-jquery小游戏
+jquery小游戏-2048
 <br>
 ##参数: Object
 <code>
