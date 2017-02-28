@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>2048</title> 
+<link href="css/common.css" rel="stylesheet">
+
+</head>
+<body>
+	<div id='game'></div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+	var config = {
+		// 底格子数量
+		width: 4,
+		height: 4, 
+		animate_speed: 300 //动画时间
+		//若要修改游戏内容，可以在Js文件defaultconfig中修改grids.value的值即可
+	}
+	$('#game').make2048(config);
+	
+</script>
+
+
