@@ -103,7 +103,6 @@ $.fn.make2048=function(config){
 				backgrounds.push(bg_grid);
 			}
 		}
-		//视频中是$this.append(backgrounds)我添加不进去。。数组里面是有一个个对象不是DOM结构。需要遍历数组才可以添加进去。。
 		for(var i in backgrounds){
 			$this.append(backgrounds[i]);
 		}
